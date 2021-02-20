@@ -44,7 +44,7 @@ export default connect(mapStateToProps)(function Drinks(props) {
         axios.post("http://localhost:4000/saveNewSearh", newSearch,
             {
                 headers: {
-                    Authorization: `Beare ${localStorage.getItem("token")}`
+                    Authorization: `Becfhvare ${localStorage.getItem("token")}`
                 }
             })
             .then(res => {
