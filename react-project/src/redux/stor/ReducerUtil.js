@@ -1,7 +1,5 @@
 function convert(actionType) {
-    let x=actionType.toLowerCase().replace(/_(\w)/g,v=>v[1].toUpperCase())
-    
-    return  x
+    return actionType.toLowerCase().replace(/_(\w)/g,v=>v[1].toUpperCase()) 
 }
 
 export default function creatReducer(state,action,handlers) {
