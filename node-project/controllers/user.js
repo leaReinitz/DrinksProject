@@ -27,7 +27,6 @@ const saveNewUser = async (req, res) => {
     console.log(user)
     try {
         let token = jwt.sign({ email: req.body.email, password: req.body.password }, process.env.SECRET)
-       
         user.password = await bcrypt.hash(user.password, 10)
         let myUser = await user.save();
         myUser.password=req.body.password
@@ -42,7 +41,6 @@ const saveNewUser = async (req, res) => {
 const deleteUserById = async (req, res) => {
     try {
         console.log(req.params.id)
-
         await User.findByIdAndDelete(req.params.id)
         res.status(200).json("succes")
     }
@@ -53,7 +51,6 @@ const deleteUserById = async (req, res) => {
 const updateUserById = async (req, res) => {
     try {
         console.log(req.params.id)
-
         let user = await User.findByIdAndUpdate(req.params.id, req.body)
         await user.save();
         res.status(200).json("succes")
@@ -86,6 +83,5 @@ const getUserByEmailAndPassword = async (req, res) => {
         res.status(500).json({ err: err })
     }
 }
-
 
 module.exports = { getUserById, getAllUsers, saveNewUser, deleteUserById, updateUserById, getUserByEmailAndPassword }
