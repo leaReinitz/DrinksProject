@@ -7,6 +7,7 @@ dotenv.config()
 const mongoose = require('mongoose')
 const router = require('./routes/route')
 const bodyParser = require("body-parser");
+const admin = require('firebase-admin')
 
 const connectionParams={
     useNewUrlParser:true,

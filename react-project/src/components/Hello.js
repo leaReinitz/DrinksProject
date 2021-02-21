@@ -13,7 +13,7 @@ export default connect(mapStateToProps,null)( function Hello(props) {
     const {firstName, lastName}=props
   return (
     <>
-    <span style={{marginRight:"10px"}}>hello {firstName} {lastName}</span>
+    <span className="profit">hello {firstName} {lastName}</span>
     </>
   );
 })

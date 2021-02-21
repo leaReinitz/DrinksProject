@@ -69,13 +69,11 @@ const getUserByEmailAndPassword = async (req, res) => {
         const result = await bcrypt.compare(req.params.password, user.password)
         console.log(result)
         if (result) {
-            console.log("getgood")
             user.password=req.params.password
             console.log(user)
             res.status(200).json({ user:user, token:token }) 
         }
         else{
-            console.log("getbad")
             res.status(404)
         } 
     }

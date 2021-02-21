@@ -61,11 +61,11 @@ export default connect(mapStateToProps)(function Drinks(props) {
     }
     return (
         <>
-            <div style={{ width: "12%", marginBottom: "30px", position: "fixed", paddingLeft: "10px" }}>
+            <div className="divOfSearch">
                 <div className="input-group" >
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
                         onChange={(e) => { setString(e.target.value) }}
-                        style={{ width: "100%", marginBottom: "10px" }} />
+                        className="inputSearch"/>
                     <button className="btn btn-outline-success my-2 my-sm-0"
                         onClick={search}
                         style={{ width: "50%" }}>Search</button>

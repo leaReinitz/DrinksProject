@@ -32,9 +32,24 @@ export default compose(
             e.preventDefault();
             firebase.auth().signInWithEmailAndPassword(email, password)
                 .then((user) => {
-                    console.log(user)
-                    axios.get(`http://localhost:4000/login/${email}/${password}`)
-                        .then(respons => {
+                    console.log(user.user.refreshToken)
+                    debugger
+                    // axios.get(`http://localhost:4000/login/${email}/${password}`
+                    // ,{
+                    //         headers: {
+                    //             Authorization: user.user.refreshToken
+                    //         }
+                    //     }
+
+                    axios({
+                        url: `http://localhost:4000/login/${email}/${password}`,
+                        method: 'get',
+                        headers: {
+                            'Authorization': user.user.refreshToken
+                        }
+                     })
+                    // )
+                    .then(respons => {
                             const myUser = respons.data.user;
                             debugger
                             console.log(myUser)

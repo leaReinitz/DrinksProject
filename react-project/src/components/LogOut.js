@@ -20,8 +20,8 @@ export default compose(
     const { history ,saveUser} = (props)
     const logOutUser = () => {
         firebase.auth().signOut();
-        localStorage.clear()
-        saveUser({})
+        localStorage.clear()//ניקוי הטוקן ע"מ שלא יוכל להכנס(JWT)
+        saveUser({})//ניקוי הרידקס
         history.push('/sign-in')
     };
     return( <>

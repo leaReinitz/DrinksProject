@@ -50,7 +50,7 @@ export default compose(
                             localStorage.clear()
                             saveUser({})
                             history.push('/sign-in')
-                            alert("login failed")
+                            alert("sign up failed")
                         })
                 })
                 .catch((err) => {
@@ -59,7 +59,7 @@ export default compose(
                     localStorage.clear()
                     saveUser({})
                     history.push('/sign-in')
-                    alert("login failed")
+                    alert("password must be at least 5 characters long")
                 });
         };
 

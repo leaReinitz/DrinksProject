@@ -37,3 +37,16 @@
     transform: rotate(360deg);
   }
 }
+.divOfSearch{
+  width: "12%";
+  margin-bottom: 30px;
+   position: fixed;
+   padding-left: 10px 
+}
+.inputSearch{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.profit{
+  margin-right:10px;
+}
