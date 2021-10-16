@@ -1,0 +1,10 @@
+C:\Users\1\Desktop\stam\stam\stam\BL\bin\Debug\netcoreapp3.1\BL.deps.json
+C:\Users\1\Desktop\stam\stam\stam\BL\bin\Debug\netcoreapp3.1\BL.dll
+C:\Users\1\Desktop\stam\stam\stam\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\stam\stam\stam\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\stam\stam\stam\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfo.cs
+C:\Users\1\Desktop\stam\stam\stam\BL\bin\Debug\netcoreapp3.1\BL.runtimeconfig.json
+C:\Users\1\Desktop\stam\stam\stam\BL\bin\Debug\netcoreapp3.1\BL.runtimeconfig.dev.json
+C:\Users\1\Desktop\stam\stam\stam\BL\bin\Debug\netcoreapp3.1\BL.pdb
+C:\Users\1\Desktop\stam\stam\stam\BL\obj\Debug\netcoreapp3.1\BL.dll
+C:\Users\1\Desktop\stam\stam\stam\BL\obj\Debug\netcoreapp3.1\BL.pdb

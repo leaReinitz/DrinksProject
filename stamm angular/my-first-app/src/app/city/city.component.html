@@ -1,0 +1,12 @@
+<p>city works!</p>
+<ul>
+    <li *ngFor="let street of streetsArry">
+        {{ street.streetName }}
+        </li>
+        
+</ul>
+<select (change)="chooseCity($event);">
+<option *ngFor="let city of citiesArry">
+{{ city.cityName }}
+</option>
+</select>

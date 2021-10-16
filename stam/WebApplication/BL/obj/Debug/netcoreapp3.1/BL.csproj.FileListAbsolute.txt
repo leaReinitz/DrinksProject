@@ -1,0 +1,13 @@
+C:\Users\1\Desktop\stam\WebApplication\BL\bin\Debug\netcoreapp3.1\BL.deps.json
+C:\Users\1\Desktop\stam\WebApplication\BL\bin\Debug\netcoreapp3.1\BL.dll
+C:\Users\1\Desktop\stam\WebApplication\BL\bin\Debug\netcoreapp3.1\BL.pdb
+C:\Users\1\Desktop\stam\WebApplication\BL\bin\Debug\netcoreapp3.1\DL.dll
+C:\Users\1\Desktop\stam\WebApplication\BL\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\1\Desktop\stam\WebApplication\BL\bin\Debug\netcoreapp3.1\DL.pdb
+C:\Users\1\Desktop\stam\WebApplication\BL\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\1\Desktop\stam\WebApplication\BL\obj\Debug\netcoreapp3.1\BL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\stam\WebApplication\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\stam\WebApplication\BL\obj\Debug\netcoreapp3.1\BL.AssemblyInfo.cs
+C:\Users\1\Desktop\stam\WebApplication\BL\obj\Debug\netcoreapp3.1\BL.csproj.CopyComplete
+C:\Users\1\Desktop\stam\WebApplication\BL\obj\Debug\netcoreapp3.1\BL.dll
+C:\Users\1\Desktop\stam\WebApplication\BL\obj\Debug\netcoreapp3.1\BL.pdb

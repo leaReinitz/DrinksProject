@@ -1,0 +1,10 @@
+C:\Users\1\Desktop\stam\stam\stam\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\1\Desktop\stam\stam\stam\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\1\Desktop\stam\stam\stam\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\1\Desktop\stam\stam\stam\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\stam\stam\stam\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\1\Desktop\stam\stam\stam\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\1\Desktop\stam\stam\stam\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\1\Desktop\stam\stam\stam\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\1\Desktop\stam\stam\stam\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\1\Desktop\stam\stam\stam\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
