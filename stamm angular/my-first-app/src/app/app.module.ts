@@ -4,6 +4,8 @@ import { HttpClientModule } from "@angular/common/http";
 import {FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CityComponent } from './city/city.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 // import { CityService } from './city.service';
 
 @NgModule({
@@ -12,7 +14,7 @@ import { CityComponent } from './city/city.component';
     CityComponent
   ],
   imports: [
-    BrowserModule,HttpClientModule,FormsModule
+    BrowserModule,HttpClientModule,FormsModule,ReactiveFormsModule
   ],
   providers: [],
   // providers: [CityService],

@@ -15,19 +15,25 @@ class City {
 let cities = []
 let streets = []
 
+window.onload = function(e){ 
+    debugger
+    alert("onload")
+}
 $(document).ready(function () {
-    $.get("https://localhost:44315/api/City/getAllCities", function (data) {
-        debugger
-        cities = data
-        cities.forEach((city) => {
+    debugger
+    alert("dgzgzdgrgdz")
+    // $.get("https://localhost:44315/api/City/getAllCities", function (data) {
+    //     debugger
+    //     cities = data
+    //     cities.forEach((city) => {
 
-            $('#cities').append(`<option value="${city.cityName}" id="${city.id}">
-                                       ${city.cityName}
-                                  </option>`);
-        })
-        $("#body").append(`<br>  `)
-        $("#body").append(`<label >the streets is :</label>  `)
-    });
+    //         $('#cities').append(`<option value="${city.cityName}" id="${city.id}">
+    //                                    ${city.cityName}
+    //                               </option>`);
+    //     })
+    //     $("#body").append(`<br>  `)
+    //     $("#body").append(`<label >the streets is :</label>  `)
+    // });
 });
 
 function chooseCity(selectedIndex) {
@@ -42,4 +48,15 @@ function chooseCity(selectedIndex) {
         })
     });
 
+}
+
+function myFunction() {
+debugger  }
+function addCity() {
+//    var cityName=$("#cityInput");
+   debugger
+    var newCity={
+        CityName=cityName
+    }
+    debugger
 }

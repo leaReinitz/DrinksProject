@@ -8284,11 +8284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\stam\\stam.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\stam\\stam.csproj",
       "projectName": "stam",
-      "projectPath": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\stam\\stam.csproj",
+      "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\stam\\stam.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\stam\\obj\\",
+      "outputPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\stam\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -8309,11 +8309,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\DL\\DL.csproj": {
-              "projectPath": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\DL\\DL.csproj"
+            "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\DL\\DL.csproj": {
+              "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\DL\\DL.csproj"
             },
-            "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\Entities\\Entities.csproj"
+            "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\Entities\\Entities.csproj"
             }
           }
         }

@@ -5003,11 +5003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

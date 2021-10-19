@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Desktop\\stam\\WebApplication\\BL\\BL.csproj": {}
+    "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Desktop\\stam\\WebApplication\\BL\\BL.csproj": {
+    "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\BL\\BL.csproj",
+        "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\BL\\obj\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\1\\Desktop\\stam\\WebApplication\\DL\\DL.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\DL\\DL.csproj"
+              "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\DL\\DL.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\DL\\DL.csproj"
               },
-              "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj"
+              "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\1\\Desktop\\stam\\WebApplication\\DL\\DL.csproj": {
+    "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\DL\\DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\DL\\DL.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\DL\\DL.csproj",
         "projectName": "DL",
-        "projectPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\DL\\DL.csproj",
+        "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\DL\\DL.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\DL\\obj\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\DL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -96,8 +96,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj"
+              "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj"
               }
             }
           }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj": {
+    "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\stam\\WebApplication\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\WebApplication\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

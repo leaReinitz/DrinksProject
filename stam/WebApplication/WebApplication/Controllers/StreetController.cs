@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BL;
+using DL;
 using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApplication.Controllers
 {
@@ -15,9 +17,13 @@ namespace WebApplication.Controllers
     {
 
         IStreetBl _streetBl;
-        public StreetController(IStreetBl streetBl)
+        stamContext _stamContext;
+
+        public StreetController(IStreetBl streetBl, stamContext stamContext)
         {
             _streetBl = streetBl;
+            _stamContext = stamContext;
+
         }
 
         // GET: api/Street
@@ -28,7 +34,6 @@ namespace WebApplication.Controllers
         }
 
 
-       
-      
+
     }
 }

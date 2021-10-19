@@ -5003,11 +5003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\BL\\BL.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\BL\\BL.csproj",
+      "projectPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Desktop\\stam\\stam\\stam\\BL\\obj\\",
+      "outputPath": "C:\\Users\\1\\Desktop\\תיקיה חדשה (2)\\stam\\stam\\stam\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -2,11 +2,17 @@
 <ul>
     <li *ngFor="let street of streetsArry">
         {{ street.streetName }}
-        </li>
-        
+    </li>
+
 </ul>
-<select (change)="chooseCity($event);">
-<option *ngFor="let city of citiesArry">
-{{ city.cityName }}
-</option>
+<select class="form-control" [(ngModel)]="someProperty" (change)="chooseCity($event);">
+    <option *ngFor="let city of citiesArry">
+        {{ city.cityName }}
+    </option>
 </select>
+<label>enter new city name</label>
+<input  id="cityInput"  id="cityInput" name="cityInput" class="form-control" [(ngModel)]="cityName" class="form-control" [(ngModel)]="cityName"/>
+ <button (click)="addCity()">addCity</button>
+ <button (click)="deleteCity()">deleteCity</button>
+ <button (click)="updateCity()">updateCity</button>
+ <!-- <button (click)="updateStreet()">updateCity</button> -->

@@ -36,20 +36,31 @@ namespace stam.Controllers
 
         // POST: api/Default
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<City> Post([FromBody] City city)
         {
+            await _stamContext.City.AddAsync(city);
+            await _stamContext.SaveChangesAsync();
+            City city1 = await _stamContext.City.LastAsync();
+            return city1;
         }
-
+       
         // PUT: api/Default/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<City> Put( [FromBody] City city)
         {
+            City city1 = await _stamContext.City.Where(e => e.CityName == city.CityName).FirstAsync();
+            city1 = city;
+            await _stamContext.SaveChangesAsync();
+            return city1;
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
+            City city = await _stamContext.City.Where(e => e.Id == id).FirstAsync();
+            _stamContext.Remove<City>(city);
+            await _stamContext.SaveChangesAsync();
         }
     }
 }

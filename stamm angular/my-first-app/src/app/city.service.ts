@@ -17,6 +17,17 @@ export class CityService {
   getStreetByCityId(selectedIndex:any):Observable<StreetClass[]>{
     return this.http.get<StreetClass[]>(`https://localhost:44315/api/Street/GetStreetByCityId?cityId=${selectedIndex}`)
    }
-
-  
+  saveCity(city:CityClass):Observable<CityClass>{
+    debugger
+    return this.http.post<CityClass>("https://localhost:44315/api/City",city);
+  }
+deleteCity(id:number):Observable<void>{
+return this.http.delete<void>("https://localhost:44315/api/City/"+id)
+}
+updateCity(city:CityClass):Observable<CityClass>{
+  return this.http.put<CityClass>("https://localhost:44315/api/City",city)
+}
+updateStreet(street:StreetClass):Observable<StreetClass>{
+  return this.http.put<StreetClass>("https://localhost:44315/api/City",street)
+}
 }
