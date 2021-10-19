@@ -3,6 +3,7 @@ import { CityClass } from "./city/cityClass";
 import {HttpClient} from '@angular/common/http'
 import { Observable } from "rxjs";
 import {StreetClass} from "./city/streetClass"
+import {StudentClass} from "./city/studentClass"
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +21,10 @@ export class CityService {
   saveCity(city:CityClass):Observable<CityClass>{
     debugger
     return this.http.post<CityClass>("https://localhost:44315/api/City",city);
+  }
+  saveStudent(student:StudentClass,courseIdArry:number[]):Observable<void>{
+    debugger
+    return this.http.post<void>(`https://localhost:44315/api/Default/${student}`,courseIdArry);
   }
 deleteCity(id:number):Observable<void>{
 return this.http.delete<void>("https://localhost:44315/api/City/"+id)

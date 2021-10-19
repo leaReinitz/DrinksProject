@@ -26,24 +26,35 @@ namespace stam.Controllers
         {
             return new string[] { "value1", "value2" };
         }
-
+        //getCourseByStudentId
         [HttpGet("[action]")]
         public async Task<List<Course>> getAllCities(int z)
         {
-            var s= await _stamContext.StudentCourse.Include(x => x.Course).Where(entry => entry.StudentId == z).Select(entry => entry.Course).ToListAsync();
+            var s= await _stamContext.StudentCourse
+                //.Include(x => x.Course)
+                .Where(entry => entry.StudentId == z)
+                .Select(entry => entry.Course)
+                .ToListAsync();
             return s;
         }
 
         // POST: api/Default
         [HttpPost]
-        public async Task<City> Post([FromBody] City city)
+        public async Task Post([FromBody] Student student)
         {
-            await _stamContext.City.AddAsync(city);
+            //int[] courseIdArry=
+            await _stamContext.Student.AddAsync(student);
+            List<StudentCourse> studentCourses= new List<StudentCourse>();
+            List<Course> courses =await _stamContext.Course.Where(c=> courseIdArry.Contains(c.CourseId)).ToListAsync();
+            foreach (Course course in courses)
+            {
+                _stamContext.StudentCourse.Add(new StudentCourse { Student = student, Course = course });
+            }
+            //await _stamContext.StudentCourse.AddRange(studentCourses)
             await _stamContext.SaveChangesAsync();
-            City city1 = await _stamContext.City.LastAsync();
-            return city1;
+
         }
-       
+
         // PUT: api/Default/5
         [HttpPut("{id}")]
         public async Task<City> Put( [FromBody] City city)

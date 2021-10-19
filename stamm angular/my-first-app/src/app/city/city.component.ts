@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CityService } from "../city.service";
 import { CityClass } from './cityClass';
 import { StreetClass } from './streetClass';
+import { StudentClass } from './studentClass';
 
 @Component({
   selector: 'app-city',
@@ -12,10 +13,12 @@ export class CityComponent implements OnInit {
 
   citiesArry: CityClass[] = [];
   streetsArry: StreetClass[] = [];
+  courseIdArry:number[]=[4,5]
   someProperty= '';
   cityName:any;
   newCity= new CityClass(0,' ');
   newStreet = new StreetClass(4,'bklh',7)
+  newStudent = new StudentClass('Nona',0)
 
   constructor(private cityService: CityService) { }
 
@@ -49,6 +52,9 @@ addCity(){
 deleteCity(){
   this.cityService.deleteCity(9).subscribe();
   debugger
+}
+addStudent(){
+  this.cityService.saveStudent(this.newStudent,this.courseIdArry).subscribe();
 }
 updateCity(){
   this.cityService.updateCity(this.citiesArry[0]).
